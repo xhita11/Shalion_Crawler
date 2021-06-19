@@ -25,7 +25,7 @@ ITEM_PIPELINES = {
     'Shalion_Crawler.pipelines.DbPipeline':  800, 
     
 }
-SQLITE_FILE  = 'Result.db'
+SQLITE_FILE  = 'Results.db'
 SQLITE_TABLE = 'Results'
 
 SPIDERMON_ENABLED = True

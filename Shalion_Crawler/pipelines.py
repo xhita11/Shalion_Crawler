@@ -40,7 +40,7 @@ class DbPipeline(object):
 
     def __init__(self):
         self.setupDBCon()
-        self.createTables()
+        #self.createTables()
 
     def setupDBCon(self):
         #self.con = apsw.Connection(self.dbfile)   # apsw
@@ -48,8 +48,6 @@ class DbPipeline(object):
         self.cur = self.con.cursor()
 
     def createTables(self):
-
-        print('\n\AQUIII CREADAAAAA\n\n\n\n\n\n\n\n\n\n\n\n')
 
         self.dropDbTable()
         self.createDbTable()
@@ -59,6 +57,7 @@ class DbPipeline(object):
             self.cur.execute("DROP TABLE Results")
         except:
             pass
+        
 
     def closeDB(self):
         self.con.close()
