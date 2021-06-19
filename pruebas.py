@@ -12,4 +12,4 @@ for preu in llista_preus:
     currency = (re.sub('[0-9]', '', preu)).replace('.','')
     print(preu, currency)
 
-#cambio
+#cambio local
