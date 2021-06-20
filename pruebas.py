@@ -25,7 +25,7 @@ args = parser.parse_args()
 
 DDBB = 'Results.db'
 
-if args.Action == 'Delete_Results':
+if args.Action == 'Delete_Results' or args.Action == 'SetUp_Database':
 
     con = sqlite3.connect(DDBB)    # sqlite3
     cur = con.cursor()
