@@ -3,7 +3,28 @@
 ###### This is an <h6> 
 
 
-
+## Junior Python Scraping Challenge
+### by Xavier Hita
+  
+### Instalación y configuración de la Base de Datos
+   
+###### 1. Clonar el Repositorio en la maquina local.
+  
+###### 2. Crear un nuevo entorno virtual, si se desea, e instalar los requerimientos del proyecto
+  
+###### 3. Configurar base de datos.
+  
+###### 4. Instalacion Sqlite DB Browser para acceder de una manera sencilla a la base de datos sqlite.
+ 
+### Uso del Crawler
+  
+###### 1. Configurar el fichero input.json con las keywords deseadas.
+  
+###### 2. Ejecutar Crawler
+  
+###### 3. Ver resultados
+  
+###### 4. Borrar resultados
 
 
 
