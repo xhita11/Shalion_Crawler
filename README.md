@@ -6,7 +6,7 @@
 ### Instalación y configuración de la Base de Datos
    
 ##### 1. Clonar el Repositorio en la maquina local.
-  Acceder al directorio donde se quiere ubicar el proyecto e ejecutar el siguiente comando:<br/>
+  Acceder al directorio donde se quiere ubicar el proyecto y ejecutar el siguiente comando:<br/>
   `git clone https://github.com/xhita11/Shalion_Crawler.git`
   
 ##### 2. Configurar entorno virtual del proyecto
@@ -19,7 +19,7 @@
   `python Database.py SetUp_Database`
   
 ##### 4. Instalacion Sqlite DB Browser.
-Para acceder de una manera sencilla a la base de datos que contiene los resultados se recomienda isntalar Sqlite Db Browser. Una herramienta sencilla que permite explorar, entre otras cosas, las bases de datos sqlite. El link de instalación es el siguiente: [Sqlite DB Browser Instalation](https://sqlitebrowser.org/dl/)
+Para acceder de una manera sencilla a la base de datos que contiene los resultados se recomienda isntalar Sqlite Db Browser. Se trata de una herramienta sencilla que permite, entre otras cosas,  explorar las bases de datos sqlite. El link de instalación es el siguiente: [Sqlite DB Browser Instalation](https://sqlitebrowser.org/dl/)
  
 <br/><br/><br/>
 
@@ -33,7 +33,8 @@ Para iniciar el crawler programado ejecutar el siguiente comando:<br/>
 `scrapy crawl products_spider -a json_input=input.json` 
   
 ##### 3. Ver resultados
-Para ver los resultados del scrawling ejecutar:
+Para ver los resultados del scrawling ejecutar:<br/>
+`python Database.py Show_Results`<br/>
 
 O bien abrir el archivo ./Results.db con el Programa Sqlite DB Browser.
   
