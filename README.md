@@ -38,7 +38,12 @@ Para ver los resultados del scrawling ejecutar:<br/>
 
 O bien abrir el archivo ./Results.db con el Programa Sqlite DB Browser.
   
-##### 4. Borrar resultados
+##### 4. Exportar resultados
+Para exportar los resultados almacenadosen la base de datos ejecutar el siguiente comando:<br/>
+`python Database.py Export_Results`<br/>
+El fichero "./Results.csv" se sobrescribirá con los datos actuales de la base de datos.
+  
+##### 5. Borrar resultados
 Para borrar los resultados obtenidos de la base de datos ejecutar el siguiente comando:<br/>
 `python Database.py Delete_Results`
 
