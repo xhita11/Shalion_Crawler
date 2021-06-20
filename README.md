@@ -10,7 +10,8 @@
   `git clone https://github.com/xhita11/Shalion_Crawler.git`
   
 ##### 2. Configurar entorno virtual del proyecto
-  Crear un nuevo entorno virtual, mediante virtualenv o conda, e instalar las librerias de python usadas en el proyecto mediante el siguiente comando.<br/>
+  En primer lugar se debe acceder a la carpeta del poryecto ./Shalion_Crawler
+  En segundo lugar  se debe crear un nuevo entorno virtual, mediante virtualenv o conda, e instalar las librerias de python usadas en el proyecto mediante el siguiente comando.<br/>
   `pip install -r requirements.txt` 
   
 ##### 3. Configurar base de datos.
