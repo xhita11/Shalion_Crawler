@@ -15,8 +15,7 @@
   `pip install -r requirements.txt` 
   
 ##### 3. Configurar base de datos.
- Acceder a la carpeta root del proyecto (pwd/Shalion_Crawler)
- Para configurar la base de datos en su maquina virtual debe ejecutar el siguiente comando en la consola:<br/>
+Para configurar la base de datos en su maquina virtual debe ejecutar el siguiente comando en la consola:<br/>
   `python Database.py SetUp_Database`
   
 ##### 4. Instalacion Sqlite DB Browser.
