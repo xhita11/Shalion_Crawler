@@ -52,10 +52,22 @@ elif args.Accion == 'Show_Results':
 
     df_results = pd.read_sql_query("SELECT keyword, title, price_amount, price_currency from Results order by keyword, id",con)
     print(df_results)
-
-
-
     con.close()
+
+elif args.Accion == 'Export_Results':
+    con = sqlite3.connect(DDBB)    # sqlite3
+    cur = con.cursor()
+
+    df_results = pd.read_sql_query("SELECT * from Results order by keyword, id",con)
+    df_results.to_csv('./Results.csv')
+    print('Results Exported to ./Results.csv')
+    con.close()
+
+
+
+
+
+    
 
 
 

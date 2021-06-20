@@ -34,7 +34,6 @@ EXTENSIONS = {
     'spidermon.contrib.scrapy.extensions.Spidermon': 500,
 }
 
-
 SPIDERMON_VALIDATION_MODELS = (
     'Shalion_Crawler.validators.ProductItem',
 )
